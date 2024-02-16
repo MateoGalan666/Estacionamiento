@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Agrega el enlace a Font Awesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Estacionamiento App</title>
+</head>
+<body>
+    <!-- Agrega un contenedor para la imagen de fondo -->
+    <div class="background-container">
+        <h1>Estacionamiento</h1>
+
+        <div class="espacios">
+            <!-- Botones existentes -->
+            <button onclick="ocuparEspacio(1)" data-id="1"><i class="fas fa-car"></i> Espacio 1</button>
+            <button onclick="ocuparEspacio(2)" data-id="2"><i class="fas fa-car"></i> Espacio 2</button>
+            <button onclick="ocuparEspacio(3)" data-id="3"><i class="fas fa-car"></i> Espacio 3</button>
+            <!-- Nuevos botones -->
+            <button onclick="ocuparEspacio(4)" data-id="4"><i class="fas fa-car"></i> Espacio 4</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
